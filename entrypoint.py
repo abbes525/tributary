@@ -5,7 +5,6 @@ import redis as redis
 from flask import Flask, request
 from loguru import logger
 from flask import Flask
-
 HISTORY_LENGTH = 10
 DATA_KEY = "engine_temperature"
 # create a Flask server, and allow us to interact with it using the app variable
